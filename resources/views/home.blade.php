@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="row">
-    <div class="col-md-12 mb-4">
+    <div class="mb-4 col-md-12">
         <div class="card">
             <div class="card-header">
                 Home
@@ -17,26 +17,24 @@
                 </div>
         </div>
     </div>
-</div>
-
-<div class="col-xl-8 mb-5 mb-xl-0">
-      <div class="card bg-gradient-default shadow">
-        <div class="card-header bg-transparent">
+    <div class="mb-5 col-xl-8 mb-xl-0">
+      <div class="shadow card bg-gradient-default">
+        <div class="bg-transparent card-header">
           <div class="row align-items-center">
             <div class="col">
-              <h6 class="text-uppercase text-light ls-1 mb-1">Overview</h6>
-              <h2 class="text-white mb-0">Sales value</h2>
+              <h6 class="mb-1 text-uppercase text-light ls-1">Overview</h6>
+              <h2 class="mb-0 text-white">Sales value</h2>
             </div>
             <div class="col">
               <ul class="nav nav-pills justify-content-end">
-                <li class="nav-item mr-2 mr-md-0" data-toggle="chart" data-target="#chart-sales" data-update='{"data":{"datasets":[{"data":[0, 20, 10, 30, 15, 40, 20, 60, 60]}]}}' data-prefix="$" data-suffix="k">
-                  <a href="#" class="nav-link py-2 px-3 active" data-toggle="tab">
+                <li class="mr-2 nav-item mr-md-0" data-toggle="chart" data-target="#chart-sales" data-update='{"data":{"datasets":[{"data":[0, 20, 10, 30, 15, 40, 20, 60, 60]}]}}' data-prefix="$" data-suffix="k">
+                  <a href="#" class="px-3 py-2 nav-link active" data-toggle="tab">
                     <span class="d-none d-md-block">Month</span>
                     <span class="d-md-none">M</span>
                   </a>
                 </li>
                 <li class="nav-item" data-toggle="chart" data-target="#chart-sales" data-update='{"data":{"datasets":[{"data":[0, 20, 5, 25, 10, 30, 15, 40, 40]}]}}' data-prefix="$" data-suffix="k">
-                  <a href="#" class="nav-link py-2 px-3" data-toggle="tab">
+                  <a href="#" class="px-3 py-2 nav-link" data-toggle="tab">
                     <span class="d-none d-md-block">Week</span>
                     <span class="d-md-none">W</span>
                   </a>
@@ -55,11 +53,11 @@
       </div>
     </div>
     <div class="col-xl-4">
-      <div class="card shadow">
-        <div class="card-header bg-transparent">
+      <div class="shadow card">
+        <div class="bg-transparent card-header">
           <div class="row align-items-center">
             <div class="col">
-              <h6 class="text-uppercase text-muted ls-1 mb-1">Performance</h6>
+              <h6 class="mb-1 text-uppercase text-muted ls-1">Performance</h6>
               <h2 class="mb-0">Total orders</h2>
             </div>
           </div>
@@ -73,15 +71,16 @@
       </div>
     </div>
     </div>
-  <div class="row mt-5">
-    <div class="col-xl-8 mb-5 mb-xl-0">
-      <div class="card shadow">
-        <div class="card-header border-0">
+</div>
+<div class="mt-5 row">
+    <div class="mb-5 col-xl-8 mb-xl-0">
+      <div class="shadow card">
+        <div class="border-0 card-header">
           <div class="row align-items-center">
             <div class="col">
               <h3 class="mb-0">Page visits</h3>
             </div>
-            <div class="col text-right">
+            <div class="text-right col">
               <a href="#!" class="btn btn-sm btn-primary">See all</a>
             </div>
           </div>
@@ -109,7 +108,7 @@
                   340
                 </td>
                 <td>
-                  <i class="fas fa-arrow-up text-success mr-3"></i> 46,53%
+                  <i class="mr-3 fas fa-arrow-up text-success"></i> 46,53%
                 </td>
               </tr>
               <tr>
@@ -123,7 +122,7 @@
                   319
                 </td>
                 <td>
-                  <i class="fas fa-arrow-down text-warning mr-3"></i> 46,53%
+                  <i class="mr-3 fas fa-arrow-down text-warning"></i> 46,53%
                 </td>
               </tr>
               <tr>
@@ -137,7 +136,7 @@
                   294
                 </td>
                 <td>
-                  <i class="fas fa-arrow-down text-warning mr-3"></i> 36,49%
+                  <i class="mr-3 fas fa-arrow-down text-warning"></i> 36,49%
                 </td>
               </tr>
               <tr>
@@ -151,7 +150,7 @@
                   147
                 </td>
                 <td>
-                  <i class="fas fa-arrow-up text-success mr-3"></i> 50,87%
+                  <i class="mr-3 fas fa-arrow-up text-success"></i> 50,87%
                 </td>
               </tr>
               <tr>
@@ -165,7 +164,7 @@
                   190
                 </td>
                 <td>
-                  <i class="fas fa-arrow-down text-danger mr-3"></i> 46,53%
+                  <i class="mr-3 fas fa-arrow-down text-danger"></i> 46,53%
                 </td>
               </tr>
             </tbody>
@@ -174,13 +173,13 @@
       </div>
     </div>
     <div class="col-xl-4">
-      <div class="card shadow">
-        <div class="card-header border-0">
+      <div class="shadow card">
+        <div class="border-0 card-header">
           <div class="row align-items-center">
             <div class="col">
               <h3 class="mb-0">Social traffic</h3>
             </div>
-            <div class="col text-right">
+            <div class="text-right col">
               <a href="#!" class="btn btn-sm btn-primary">See all</a>
             </div>
           </div>
